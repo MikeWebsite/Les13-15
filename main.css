@@ -1,0 +1,60 @@
+header{
+padding: 5px 5px;
+}
+body{
+background-color: lightgreen;
+padding: 5px 5px;
+margin-left: 200px;
+margin-right: 200px;
+}
+h1{
+color: grey;
+}
+ul a{
+color: red;
+text-decoration: none;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+padding: 12px;
+text-align: center;
+color: red;
+background-color: olive;
+}
+li:hover{
+background-color: lightblue;
+}
+div{
+background-color: lightblue;
+}
+table{
+background-color: pink;
+border-collapse: collapse;
+}
+td, th{
+padding: 10px 10px;
+}
+form{
+background-color: yellow;
+}
+input[type="text"], input[type="email"], textarea, button{display: block;
+margin: 15px 0px;
+width: 300px;
+box-sizing: border-box;
+border-radius: 4px; box-shadow: inset 2px 2px 5px lightgreen;
+}
+textarea{height: 100px;
+padding: 5px 5px
+}
+button:active{
+background-color: purple;
+color: blue;
+border-radius: 8px;
+box-shadow: inset 2px 2px 5px green;
+}
+footer{
+color: purple;
+padding: 5px 5px;
+}
